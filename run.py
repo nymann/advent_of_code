@@ -47,7 +47,7 @@ def main(day="*", year="*"):
 
 if __name__ == "__main__":
     # if you wanna run a specific day
-    main(day="01.py", year="2018")
+    main(day="02.py", year="2018")
 
     # or if you wanna run all:
     # main()
