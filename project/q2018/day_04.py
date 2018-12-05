@@ -48,6 +48,7 @@ class Guard:
 
 class Day(Solution):
     def __init__(self, day, year):
+        print("hey")
         super().__init__(day, year)
         self.input = self.puzzle_input.split('\n')
         self.input.sort()
