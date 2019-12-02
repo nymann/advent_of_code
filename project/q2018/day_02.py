@@ -1,5 +1,4 @@
 from collections import defaultdict
-from itertools import cycle
 
 from project import Solution
 

@@ -28,7 +28,7 @@ def run_day(py_file, day, year):
 
 
 def main(day="*", year="*"):
-    print("\u001b[32;1mAdvent \u001b[34;1mof \u001b[31;1mCode \u001b[0m2018")
+    print("\u001b[32;1mAdvent \u001b[34;1mof \u001b[31;1mCode \u001b[0m2019")
     py_files = glob.glob(f"./project/q{year}/day_{day}")
     for py_file in py_files:
         day = int(py_file[py_file.rfind("day_") + 4:-3])
@@ -47,7 +47,7 @@ def main(day="*", year="*"):
 
 if __name__ == "__main__":
     # if you wanna run a specific day
-    main(day="06.py", year="2018")
+    main(day="02.py", year="2019")
 
     # or if you wanna run all:
     # main()
